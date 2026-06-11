@@ -8,9 +8,9 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  delay(1000);
+  delay(100);
   digitalWrite(4, HIGH);
   Serial.println("Hello World!");
-  delay(1000);
+  delay(100);
   digitalWrite(4, LOW);
 }

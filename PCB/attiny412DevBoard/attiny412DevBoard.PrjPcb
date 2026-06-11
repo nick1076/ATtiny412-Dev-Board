@@ -83,23 +83,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITKNKDEU
 
-[Document3]
-DocumentPath=Parts.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NZFMKMVZ
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for attiny412DevBoard\Design Rule Check - Main.html
 DItemRevisionGUID=
@@ -524,7 +507,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Nick Niles\Desktop\Repos\ATtiny412-Dev-Board\PCB\attiny412DevBoard\Main.PcbDoc
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Nick Niles\Desktop\Repos\ATtiny412-Dev-Board\PCB\attiny412DevBoard\Main.PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -1208,7 +1191,11 @@ PartTypes=0
 Net1=NetName=3V3|NetColor=$006E6EFF
 Net2=NetName=5V0|NetColor=$00FF6EFF
 Net3=NetName=GND|NetColor=$0000BE00
-Net4=NetName=VIN|NetColor=$000083FD
+Net4=NetName=PA3//SDA|NetColor=$00FFFF6E
+Net5=NetName=PA6//SCL|NetColor=$00FFFF6E
+Net6=NetName=UPDI|NetColor=$00FFFF6E
+Net7=NetName=UPDI_PRE|NetColor=$00FFFF6E
+Net8=NetName=VIN|NetColor=$000083FD
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0

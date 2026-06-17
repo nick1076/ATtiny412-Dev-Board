@@ -1,0 +1,18 @@
+Change Component Comment : Designator=R7 Old Comment=1kO New Comment=2.2k
+Change Net Name : Old Net Name=PA2//TX New Net Name=PA2
+Change Net Name : Old Net Name=PA3//SDA New Net Name=PA3//SCL
+Change Net Name : Old Net Name=PA7 New Net Name=PA7//RX
+Change Net Color : Old Net Color=RGB(110, 255, 255) New Net Color=Default
+Added Pin To Net: NetName=PA1//SDA Pin=P3-4
+Added Pin To Net: NetName=PA1//SDA Pin=R2-2
+Added Pin To Net: NetName=PA1//SDA Pin=U2-4
+Added Net: Name=PA1//SDA
+Added Pin To Net: NetName=PA6//TX Pin=P3-2
+Added Pin To Net: NetName=PA6//TX Pin=U2-2
+Added Net: Name=PA6//TX
+Added Member To Class: ClassName=Main Member=Component R1 4.7K
+Added Member To Class: ClassName=Main Member=Component R2 4.7K
+Added Member To Class: ClassName=Main Member=Component R3 5.1k
+Added Member To Class: ClassName=Main Member=Component R4 1k
+Added Member To Class: ClassName=Main Member=Component R6 5.1k
+Added Member To Class: ClassName=Main Member=Component R7 2.2k
